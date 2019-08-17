@@ -31,7 +31,7 @@ export default class InputBox extends Component {
                   type="text"
                   onChange={this.changeTextState}
                   onKeyDown={this.checkEnterPressed}
-                  placeholder="Introducir texto"
+                  placeholder="Please, ask a question.."
                />
             </div>
             <div className="send_message">
