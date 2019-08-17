@@ -10,7 +10,7 @@ export default class Chat extends Component {
       messages: [
         {
           user: "bot",
-          message: "¡Hola!, soy tu asistente virtual. Espero poder ayudarte."
+          message: "Hi I am your virtual dentist. How can I help you?."
         }
       ]
     };
@@ -53,7 +53,7 @@ export default class Chat extends Component {
               <div className="button minimize" />
               <div className="button maximize" />
             </div>
-            <div className="title">Dialogflow Chatbot</div>
+            <div className="title">Dentist Chatbot</div>
           </div>
           <ul className="messages" ref={this.messages}>
             <MessageList messageList={this.state.messages} />
